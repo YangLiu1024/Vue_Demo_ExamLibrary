@@ -14,6 +14,7 @@ This demo show the usage of Vue + vue-router + Vuex + iView + axios + express
   1. Download MongoDB
   2. Add mongo bin to system PATH
   3. start mongo db: mongod --dbpath ${db-path}
+  
 Normally, mongo db service will listen to http://localhost:27017.
 You can use Studio 3T to visualize mongo db
 
@@ -135,4 +136,5 @@ To test HTTP request without front-end, you can use Postman
 
 ### Front-End
 
+As for front-end, 
 
