@@ -4,9 +4,9 @@ A example of Vue
 This demo show the usage of Vue + vue-router + Vuex + iView + axios + express
 
 ## Build Setup
-   vue init webpack examlibrary
-   npm install
-   npm run dev
+   1. vue init webpack examlibrary
+   2. npm install
+   3. npm run dev
    
 ## Development
 
@@ -34,7 +34,7 @@ To access mongo db, choose middleware mongoose
 ```bash
 #install mongoose
 npm install -save mongoose
-```bash
+```
 Generally, define db.js in util folder to centralized management\
 ```js
 var mongoose = require('mongoose')
