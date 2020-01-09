@@ -137,4 +137,21 @@ To test HTTP request without front-end, you can use Postman
 ### Front-End
 
 As for front-end, 
+```bash
+#create vue project
+vue init webpack-simple ${project-name}
+```
+to access back-end, could use axios and vue-axios
+```js
+import Vue from 'vue'
+import axios from 'axios'
+import VueAxios from 'vue-axios'
+
+Vue.use(VueAxios, axios)
+
+//example
+//Vue.axios.get(${url}).then(res => {}).catch(err => {})
+```
+
+to beautify the component, could use Element,iView, Vant, etc...
 
